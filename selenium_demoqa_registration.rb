@@ -148,9 +148,6 @@ class SeleniumDemoReg
     @chrome_driver.find_element(:id, DOB_YEAR_DROPDOWN_LIST)['value']
   end
 
-
-
-
   # Phone number field management - Difficulty Easy
 
   def set_phone_number_field(phone_number)
